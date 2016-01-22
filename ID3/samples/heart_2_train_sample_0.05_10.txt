@@ -1,0 +1,28 @@
+@relation cleveland-14-heart-disease
+
+@attribute age numeric
+@attribute sex {female,male}
+@attribute cp {typ_angina,asympt,non_anginal,atyp_angina}
+@attribute trestbps numeric
+@attribute chol numeric
+@attribute fbs {t,f}
+@attribute restecg {left_vent_hyper,normal,st_t_wave_abnormality}
+@attribute thalach numeric
+@attribute exang {no,yes}
+@attribute oldpeak numeric
+@attribute slope {up,flat,down}
+@attribute ca numeric
+@attribute thal {fixed_defect,normal,reversable_defect}
+@attribute class {negative,positive}
+
+@data
+60,male,non_anginal,140,185,f,left_vent_hyper,155,no,3,flat,0,normal,positive
+52,male,atyp_angina,134,201,f,normal,158,no,0.8,up,1,normal,negative
+35,male,asympt,126,282,f,left_vent_hyper,156,yes,0,up,0,reversable_defect,positive
+67,female,non_anginal,115,564,f,left_vent_hyper,160,no,1.6,flat,0,reversable_defect,negative
+60,male,asympt,140,293,f,left_vent_hyper,170,no,1.2,flat,2,reversable_defect,positive
+48,male,asympt,130,256,t,left_vent_hyper,150,yes,0,up,2,reversable_defect,positive
+70,male,asympt,145,174,f,normal,125,yes,2.6,down,0,reversable_defect,positive
+45,female,asympt,138,236,f,left_vent_hyper,152,yes,0.2,flat,0,normal,negative
+54,male,asympt,140,239,f,normal,160,no,1.2,up,0,normal,negative
+53,male,non_anginal,130,197,t,left_vent_hyper,152,no,1.2,down,0,normal,negative
